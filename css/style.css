@@ -1,0 +1,30 @@
+.list_item_link {
+  font-family: "Roboto", sans-serif;
+}
+
+.location {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
+
+.text {
+  color: #1f171c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn_box {
+  display: inline;
+  background: #ef2fa2;
+  padding: 6px 16px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
