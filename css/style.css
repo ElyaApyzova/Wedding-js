@@ -30,7 +30,11 @@ button {
 .container {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0px 20px;
+}
+
+.header {
+  background-color: antiquewhite;
 }
 
 .inner__header {
@@ -40,43 +44,3 @@ button {
   align-items: center;
 }
 
-.menu__list {
-  display: flex;
-  gap: 30px;
-}
-
-.location__list {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-
-.menu__btn {
-  display: none;
-}
-
-.list_item_link {
-  font-family: "Roboto", sans-serif;
-}
-
-
-.location__image {
-  width: 16px;
-  height: 16px;
-}
-
-.location__arrow {
-  width: 16px;
-  height: 16px;
-}
-
-
-
-.btn_box {
-  display: inline;
-  background: #ef2fa2;
-  padding: 6px 16px;
-  border-radius: 10px;
-  font-family: "Roboto", sans-serif;
-}
