@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-size: 'Roboto', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000;
   font-size: 14px;
   font-style: normal;
@@ -40,7 +40,7 @@ button {
 }
 
 .header {
-  background-color: antiquewhite;
+  background-color: #EDF7F2;
 }
 
 .inner__header {
@@ -50,8 +50,25 @@ button {
   align-items: center;
 }
 
-.menu__list {
-  display: flex;
-  gap: 20px;
+.logo__img {
+  width: 180px;
 }
 
+.menu__list {
+  display: flex;
+  gap: 26px;
+}
+
+.menu__list__link {
+  font-size: 16px;
+}
+
+.language {
+  display: flex;
+  gap: 9px;
+}
+
+
+.footer {
+  background-color: #47B47D;
+}
