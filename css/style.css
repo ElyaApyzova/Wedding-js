@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #000;
+  color: #211f1f;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -40,7 +40,7 @@ button {
 }
 
 .header {
-  background-color: #EDF7F2;
+  background-color: #edf7f2;
 }
 
 .inner__header {
@@ -51,12 +51,12 @@ button {
 }
 
 .logo__img {
-  width: 180px;
+  width: 190px;
 }
 
 .menu__list {
   display: flex;
-  gap: 26px;
+  gap: 30px;
 }
 
 .menu__list__link {
@@ -65,10 +65,41 @@ button {
 
 .language {
   display: flex;
-  gap: 9px;
+  align-items: center;
 }
 
+.language__text {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.language i {
+  color: #47b47d;
+}
 
 .footer {
-  background-color: #47B47D;
+  background-color: #47b47d;
+}
+
+.inner__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: -90px;
+}
+
+.phone {
+  position: relative;
+}
+
+.phone::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/phone1.png");
+  width: 27px;
+  height: 27px;
+  left: -28px;
 }
