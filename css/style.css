@@ -79,16 +79,26 @@ button {
 
 .footer {
   background-color: #47b47d;
+  margin-top: 150px;
+  color: #fff;
 }
 
 .inner__footer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-.logo {
+.footer__logo {
   margin-top: -90px;
+  margin-bottom: 48px;
+  width: 162px;
+  height: 162px;
+}
+
+.footer__contacts {
+  margin: 48px 0px;
 }
 
 .phone {
@@ -98,8 +108,40 @@ button {
 .phone::before {
   content: "";
   position: absolute;
-  background-image: url("../images/phone1.png");
-  width: 27px;
-  height: 27px;
-  left: -28px;
+  background-image: url("../images/phone2.png");
+  width: 40px;
+  height: 40px;
+  top: -10px;
+  left: -48px;
+}
+
+.footer__social {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer__social-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer__social-img {
+  width: 40px;
+  height: 40px;
+}
+
+
+.line {
+  width: 980px;
+  border: 1px solid;
+}
+
+.footer__description {
+  margin-top: 33px;
+  margin-bottom: 37px;
+  font-size: 12px;
 }
