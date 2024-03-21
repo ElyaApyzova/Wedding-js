@@ -79,7 +79,7 @@ button {
 
 .footer {
   background-color: #47b47d;
-  margin-top: 150px;
+  padding: 40px 0px;
   color: #fff;
 }
 
@@ -91,32 +91,20 @@ button {
 }
 
 .footer__logo {
-  margin-top: -90px;
+  margin-top: -135px;
   margin-bottom: 48px;
   width: 162px;
   height: 162px;
 }
 
-.footer__contacts {
+.footer__social {
   margin: 48px 0px;
 }
 
-.phone {
-  position: relative;
-}
 
-.phone::before {
-  content: "";
-  position: absolute;
-  background-image: url("../images/phone2.png");
-  width: 40px;
-  height: 40px;
-  top: -10px;
-  left: -48px;
-}
 
 .footer__social {
-  margin-bottom: 48px;
+  margin-bottom: 47px;
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -142,6 +130,58 @@ button {
 
 .footer__description {
   margin-top: 33px;
-  margin-bottom: 37px;
   font-size: 12px;
+  width: 439px;
+}
+
+
+@media (max-width: 1140px) {
+  .line {
+    width: 800px;
+  }
+}
+
+
+
+@media (max-width: 890px) {
+
+  .inner__header {
+     height: 70px;
+  }
+  .logo__img {
+    width: 160px;
+  }
+
+  .menu__list {
+    gap: 20px;
+  }
+  .menu__list__link {
+    font-size: 14px;
+  }
+
+  .language__text {
+    font-size: 14px;
+  }
+
+  .footer__logo {
+    margin-top: -120px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .footer__social-img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer__social-text {
+    font-size: 12px;
+  }
+  .line {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  
 }
