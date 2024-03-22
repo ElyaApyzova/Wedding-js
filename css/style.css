@@ -39,6 +39,22 @@ button {
   padding: 0px 20px;
 }
 
+.menu__btn {
+  display: none;
+  width: 30px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  display: flex;
+}
+
+.menu__btn span {
+  height: 1px;
+  background-color: #47b47d;
+}
+
 .header {
   background-color: #edf7f2;
 }
@@ -53,6 +69,7 @@ button {
 .logo__img {
   width: 190px;
 }
+
 
 .menu__list {
   display: flex;
@@ -88,23 +105,17 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 60px;
 }
 
 .footer__logo {
   margin-top: -135px;
-  margin-bottom: 48px;
   width: 162px;
   height: 162px;
 }
 
-.footer__social {
-  margin: 48px 0px;
-}
-
-
 
 .footer__social {
-  margin-bottom: 47px;
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -122,18 +133,16 @@ button {
   height: 40px;
 }
 
-
 .line {
   width: 980px;
   border: 1px solid;
 }
 
 .footer__description {
-  margin-top: 33px;
   font-size: 12px;
   width: 439px;
+  text-align: center;
 }
-
 
 @media (max-width: 1140px) {
   .line {
@@ -141,12 +150,9 @@ button {
   }
 }
 
-
-
 @media (max-width: 890px) {
-
   .inner__header {
-     height: 70px;
+    height: 70px;
   }
   .logo__img {
     width: 160px;
@@ -161,6 +167,10 @@ button {
 
   .language__text {
     font-size: 14px;
+  }
+
+  .inner__footer {
+    gap: 50px;
   }
 
   .footer__logo {
@@ -183,5 +193,64 @@ button {
 }
 
 @media (max-width: 768px) {
+ 
+  .inner__header {
+    height: 60px;
+  }
+  .logo__img {
+    width: 140px;
+    
+  }
+
+  .menu__list {
+    gap: 14px;
+  }
+  .menu__list__link {
+    font-size: 12px;
+  }
+
+  .language__text {
+    font-size: 12px;
+  }
+
+  .inner__footer {
+    gap: 40px;
+  }
+
+  .footer__logo {
+    margin-top: -110px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .footer__social-link {
+    gap: 8px;
+  }
+
+  .footer__social-img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer__social-text {
+    font-size: 10px;
+  }
+  .line {
+    width: 550px;
+  }
+
+  .footer__description {
+    font-size: 10px;
+  }
   
+}
+
+@media (max-width: 640px) {
+  .menu__list {
+    display: none;
+  }
+
+  .menu__btn {
+    display: block;
+  }
 }
