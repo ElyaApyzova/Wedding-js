@@ -41,22 +41,25 @@ button {
 
 .menu__btn {
   display: none;
-  width: 30px;
-  height: 25px;
+  width: 26px;
+  height: 16px;
   border: none;
   background-color: transparent;
   padding: 0;
   border-radius: 0;
-  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu__btn span {
-  height: 1px;
+  height: 2px;
   background-color: #47b47d;
+  width: 100%;
 }
 
 .header {
   background-color: #edf7f2;
+  margin-bottom: 100px;
 }
 
 .inner__header {
@@ -86,8 +89,7 @@ button {
 }
 
 .language__text {
-  font-size: 16px;
-  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .language i {
@@ -103,7 +105,6 @@ button {
 .inner__footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 60px;
 }
@@ -173,11 +174,7 @@ button {
     gap: 50px;
   }
 
-  .footer__logo {
-    margin-top: -120px;
-    width: 130px;
-    height: 130px;
-  }
+ 
 
   .footer__social-img {
     width: 28px;
@@ -217,11 +214,6 @@ button {
     gap: 40px;
   }
 
-  .footer__logo {
-    margin-top: -110px;
-    width: 120px;
-    height: 120px;
-  }
 
   .footer__social-link {
     gap: 8px;
@@ -246,11 +238,62 @@ button {
 }
 
 @media (max-width: 640px) {
-  .menu__list {
+
+
+  .header__menu-list {
     display: none;
   }
 
   .menu__btn {
-    display: block;
+    display: flex;
   }
+
+  .header__menu {
+    order: 1;
+  }
+
+  .language__text{
+    font-size: 14px;
+  }
+
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+
+  .inner__footer {
+    gap: 30px;
+  }
+
+  .footer__social-box {
+    display: none;
+  }
+
+  .line {
+    width: 350px;
+  }
+
+  .footer__description {
+    width: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+
+    .menu__list {
+      display: block;
+    }
+
+    .footer__menu-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .line {
+      width: 230px;
+    }
+
+    .footer__description {
+      width: 200px;
+    }
 }
