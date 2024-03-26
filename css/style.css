@@ -72,7 +72,6 @@ button {
   width: 190px;
 }
 
-
 .menu__list {
   display: flex;
   gap: 30px;
@@ -98,20 +97,70 @@ button {
 .top {
   position: relative;
   margin-bottom: 100px;
-  background-color: #EDF7F2;
+  background-color: #edf7f2;
 }
 
 .top::before {
   position: absolute;
   content: "";
-  background-image: url('../images/small-img.png');
+  background-image: url(../images/small-img.png);
   left: 0;
 }
 
 .top::after {
   position: absolute;
   content: "";
-  background-image: url('../images/hybmax-img.png');
+  background-image: url("../images/hybmax-img.png");
+}
+
+.top__text {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #47b47d;
+}
+
+.top__title {
+  font-size: 56px;
+  font-weight: 800;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.top__description {
+  font-size: 16px;
+}
+
+.top__btns {
+  margin-top: 32px;
+  display: flex;
+  gap: 20px;
+}
+
+.top__buy {
+  background: #47b47d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 48px;
+  cursor: pointer;
+}
+
+.top__buy:hover {
+  background: #73d4a4;
+}
+
+.top__video {
+  position: relative;
+  background: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.top__video::before {
+  position: absolute;
+  content: "";
+  background-image: url("../images/video-img1.png");
+  cursor: pointer;
 }
 
 .footer {
@@ -132,7 +181,6 @@ button {
   width: 162px;
   height: 162px;
 }
-
 
 .footer__social {
   display: flex;
@@ -195,8 +243,6 @@ button {
     gap: 35px;
   }
 
- 
-
   .footer__social-img {
     width: 28px;
     height: 28px;
@@ -211,13 +257,11 @@ button {
 }
 
 @media (max-width: 768px) {
- 
   .inner__header {
     height: 60px;
   }
   .logo__img {
     width: 140px;
-    
   }
 
   .menu__list {
@@ -234,7 +278,6 @@ button {
   .inner__footer {
     gap: 30px;
   }
-
 
   .footer__social-link {
     gap: 8px;
@@ -255,12 +298,9 @@ button {
   .footer__description {
     font-size: 10px;
   }
-  
 }
 
 @media (max-width: 640px) {
-
-
   .header__menu-list {
     width: 100%;
     background-color: #47b47d;
@@ -273,11 +313,11 @@ button {
     top: 60px;
     text-align: center;
     transform: translateY(-150%);
-    transition: transform .5s ease;
+    transition: transform 0.5s ease;
   }
 
   .header__menu-list.menu__open {
-   transform: translateY(0%);
+    transform: translateY(0%);
   }
 
   .menu__btn {
@@ -289,10 +329,9 @@ button {
     order: 1;
   }
 
-  .language__text{
+  .language__text {
     font-size: 14px;
   }
-
 
   .inner__footer {
     gap: 25px;
@@ -312,18 +351,17 @@ button {
 }
 
 @media (max-width: 400px) {
+  .footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .footer__menu-list {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+  .line {
+    width: 230px;
+  }
 
-    .line {
-      width: 230px;
-    }
-
-    .footer__description {
-      width: 200px;
-    }
+  .footer__description {
+    width: 200px;
+  }
 }
