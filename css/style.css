@@ -106,22 +106,10 @@ button {
   position: relative;
 }
 
-.top::before {
-  position: absolute;
-  content: "";
-  background-image: url(../images/small-img.png);
-  left: 0;
-}
-
-.top::after {
-  position: absolute;
-  content: "";
-  background-image: url("../images/hybmax-img.png");
-}
 
 .top__content {
   width: 452px;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .top__text {
@@ -169,21 +157,47 @@ button {
   font-weight: 600;
 }
 
-.top__video::before {
-  position: absolute;
-  content: "";
-  background-image: url("../images/video-img1.png");
-}
 
 .top__img {
   position: absolute;
-  top: 0;
-  left: 38px;
-  display: flex;
+  top: -150px;
+  left: 570px;
+}
+
+.small__img {
+  position: absolute;
+  top: -15px;
+  left: -30px;
+  width: 66px;
+  height: 66px;
+}
+
+.yellow__star-img {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 .hero__img {
   width: 700px;
+}
+
+.white__star-img {
+  position: absolute;
+  top: 435px;
+  right: 80px;
+  width: 100px;
+  height: 100px;
+}
+
+.text__img {
+  position: absolute;
+  top: 140px;
+  right: -54px;
+  width: 120px;
+  height: 180px;
 }
 
 .footer {
