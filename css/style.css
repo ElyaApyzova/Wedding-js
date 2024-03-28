@@ -40,6 +40,8 @@ button {
   padding: 0px 20px;
 }
 
+
+
 .menu__btn {
   display: none;
   width: 26px;
@@ -100,6 +102,7 @@ button {
 .top {
   padding: 36px 0 130px;
   background-color: #edf7f2;
+  overflow-x: clip;
 }
 
 .top__inner {
@@ -134,6 +137,7 @@ button {
 
 .top__btns {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -148,6 +152,12 @@ button {
 
 .top__buy:hover {
   background: #73d4a4;
+}
+
+.video__btn {
+  display: flex;
+  align-items: center;
+  gap: 9px;
 }
 
 .top__video {
@@ -186,7 +196,7 @@ button {
 
 .white__star-img {
   position: absolute;
-  top: 435px;
+  top: 438px;
   right: 80px;
   width: 100px;
   height: 100px;
@@ -194,11 +204,144 @@ button {
 
 .text__img {
   position: absolute;
-  top: 140px;
-  right: -54px;
+  top: 250px;
+  right: 0;
   width: 120px;
   height: 180px;
 }
+
+
+@media (max-width: 1300px) {
+  
+  .top__img {
+    left: 550px;
+  }
+  .small__img {
+    left: -10px;
+  }
+  
+  .yellow__star-img {
+    right: 140px;
+  }
+  
+  
+  .white__star-img {
+    right: 120px;
+  }
+  
+  
+}
+
+@media (max-width: 1262px) {
+
+  .top__img {
+    left: 530px;
+  }
+  .small__img {
+    left: 0;
+  }
+  
+  .yellow__star-img {
+    right: 150px;
+  }
+  
+  
+  .white__star-img {
+    right: 130px;
+  }
+  
+  
+}
+
+@media (max-width: 1240px) {
+   
+  .top__text {
+    font-size: 14px;
+  }
+
+  .top__title {
+    font-size: 53px;
+  }
+  .top__img {
+    top: -120px;
+    left: 570px;
+  }
+  
+  .small__img {
+    left: 0;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .yellow__star-img {
+    right: 150px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .hero__img {
+    width: 650px;
+  }
+  
+  .white__star-img {
+    top: 428px;
+    right: 130px;
+    width: 90px;
+    height: 90px;
+  }
+  
+  
+  
+}
+
+@media (max-width: 1230px) {
+   
+  .top__img {
+    left: 560px;
+  }
+  
+  
+}
+
+
+@media (max-width: 1210px) {
+   
+  .top__img {
+    left: 540px;
+  }
+  
+  
+}
+
+@media (max-width: 1192px) {
+   
+  .top__img {
+    left: 500px;
+  }
+  
+  
+}
+
+@media (max-width: 1148px) {
+   
+  .top__img {
+    left: 450px;
+  }
+  
+  
+}
+
+@media (max-width: 1100px) {
+   
+  
+  
+  
+}
+
+
+
+
+
 
 .footer {
   background-color: #47b47d;
