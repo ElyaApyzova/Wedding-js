@@ -35,12 +35,11 @@ button {
 }
 
 .container {
+  position: relative;
   max-width: 1240px;
   margin: 0 auto;
   padding: 0px 20px;
 }
-
-
 
 .menu__btn {
   display: none;
@@ -109,7 +108,6 @@ button {
   position: relative;
 }
 
-
 .top__content {
   width: 452px;
   padding-top: 80px;
@@ -147,7 +145,6 @@ button {
   font-size: 18px;
   font-weight: 600;
   padding: 16px 48px;
-  
 }
 
 .top__buy:hover {
@@ -167,25 +164,24 @@ button {
   font-weight: 600;
 }
 
-
 .top__img {
   position: absolute;
   top: -150px;
-  left: 570px;
+  left: 560px;
 }
 
 .small__img {
   position: absolute;
-  top: -15px;
-  left: -30px;
+  top: 110px;
+  left: 30px;
   width: 66px;
   height: 66px;
 }
 
 .yellow__star-img {
   position: absolute;
-  top: 150px;
-  right: 100px;
+  top: 250px;
+  right: 170px;
   width: 60px;
   height: 60px;
 }
@@ -196,8 +192,8 @@ button {
 
 .white__star-img {
   position: absolute;
-  top: 438px;
-  right: 80px;
+  top: 550px;
+  right: 140px;
   width: 100px;
   height: 100px;
 }
@@ -210,138 +206,174 @@ button {
   height: 180px;
 }
 
-
-@media (max-width: 1300px) {
-  
-  .top__img {
-    left: 550px;
-  }
-  .small__img {
-    left: -10px;
-  }
-  
-  .yellow__star-img {
-    right: 140px;
-  }
-  
-  
-  .white__star-img {
-    right: 120px;
-  }
-  
-  
-}
-
-@media (max-width: 1262px) {
-
+@media (max-width: 1298px) {
   .top__img {
     left: 530px;
   }
+
   .small__img {
     left: 0;
   }
-  
-  .yellow__star-img {
-    right: 150px;
-  }
-  
-  
-  .white__star-img {
-    right: 130px;
-  }
-  
-  
 }
 
-@media (max-width: 1240px) {
-   
+@media (max-width: 1250px) {
+  .top__img {
+    left: 510px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .top__img {
+    left: 480px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .top__img {
+    left: 460px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .top__content {
+    width: 440px;
+  }
+
   .top__text {
     font-size: 14px;
   }
 
   .top__title {
-    font-size: 53px;
+    font-size: 50px;
   }
+
+  .top__description {
+    font-size: 14px;
+  }
+
+  .top__buy {
+    font-size: 16px;
+    padding: 14px 40px;
+  }
+
+  .top__video {
+    font-size: 16px;
+  }
+
   .top__img {
-    top: -120px;
-    left: 570px;
+    top: -100px;
+    left: 530px;
   }
-  
+
   .small__img {
-    left: 0;
     width: 60px;
     height: 60px;
   }
-  
+
   .yellow__star-img {
     right: 150px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
-  
+
   .hero__img {
-    width: 650px;
+    width: 600px;
   }
-  
+
   .white__star-img {
-    top: 428px;
-    right: 130px;
+    top: 520px;
+    right: 120px;
     width: 90px;
     height: 90px;
   }
-  
-  
-  
-}
 
-@media (max-width: 1230px) {
-   
-  .top__img {
-    left: 560px;
+  .text__img {
+    width: 100px;
+    height: 150px;
   }
-  
-  
 }
 
-
-@media (max-width: 1210px) {
-   
+@media (max-width: 1128px) {
   .top__img {
-    left: 540px;
+    left: 490px;
   }
-  
-  
 }
 
-@media (max-width: 1192px) {
-   
-  .top__img {
-    left: 500px;
-  }
-  
-  
-}
-
-@media (max-width: 1148px) {
-   
+@media (max-width: 1092px) {
   .top__img {
     left: 450px;
   }
-  
-  
 }
 
-@media (max-width: 1100px) {
-   
-  
-  
-  
+@media (max-width: 1056px) {
+  .top__content {
+    width: 410px;
+    padding-top: 65px;
+  }
+
+  .top__text {
+    font-size: 12px;
+  }
+
+  .top__title {
+    font-size: 45px;
+  }
+
+
+
+  .top__buy {
+    font-size: 14px;
+    padding: 12px 30px;
+  }
+
+  .top__video {
+    font-size: 14px;
+  }
+
+  .top__img {
+    top: -70px;
+    left: 520px;
+  }
+
+  .small__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .yellow__star-img {
+    right: 130px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero__img {
+    width: 500px;
+  }
+
+  .white__star-img {
+    top: 470px;
+    right: 100px;
+    width: 80;
+    height: 80px;
+  }
+
+  .text__img {
+    width: 80px;
+    height: 130px;
+  }
 }
 
+@media (max-width: 1024px) {
+  .top__img {
+    left: 480px;
+  }
+}
 
-
-
-
+@media (max-width: 976px) {
+  .top__img {
+    left: 450px;
+  }
+}
 
 .footer {
   background-color: #47b47d;
