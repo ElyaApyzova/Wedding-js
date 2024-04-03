@@ -324,8 +324,6 @@ img {
     font-size: 45px;
   }
 
-
-
   .top__buy {
     font-size: 14px;
     padding: 12px 30px;
@@ -388,7 +386,6 @@ img {
   }
 }
 
-
 @media (max-width: 920px) {
   .top__content {
     width: 350px;
@@ -405,7 +402,7 @@ img {
     margin-bottom: 14px;
   }
 
-  .top__description{
+  .top__description {
     margin-bottom: 24px;
     font-size: 12px;
   }
@@ -446,7 +443,6 @@ img {
 }
 
 @media (max-width: 892px) {
-  
   .top__img {
     left: 430px;
   }
@@ -456,31 +452,25 @@ img {
   }
 }
 
-
 @media (max-width: 868px) {
-  
   .top__img {
     left: 400px;
   }
 }
 
 @media (max-width: 840px) {
-  
   .top__img {
     left: 380px;
   }
 }
 
 @media (max-width: 820px) {
-  
   .top__img {
     left: 350px;
   }
 }
 
-
 @media (max-width: 790px) {
-  
   .top__content {
     width: 300px;
     padding-top: 14px;
@@ -547,9 +537,7 @@ img {
     width: 60px;
     height: 110px;
   }
-  
 }
-
 
 @media (max-width: 755px) {
   .top__img {
@@ -564,32 +552,107 @@ img {
 }
 
 @media (max-width: 698px) {
+  .top__content {
+    width: 250px;
+  }
+  .top__img {
+    left: 280px;
+  }
+}
 
+@media (max-width: 677px) {
+  .top__content {
+    width: 250px;
+  }
+  .top__img {
+    left: 260px;
+  }
+}
+
+@media (max-width: 659px) {
+  .top__content {
+    width: 235px;
+  }
+  .top__img {
+    left: 240px;
+  }
+}
+
+@media (max-width: 639px) {
   .top__content {
     width: 100%;
     text-align: center;
+    padding-top: 330px;
   }
+
   .top__text {
-    
+    font-size: 16px;
   }
 
   .top__title {
-    
+    font-size: 40px;
+    margin-bottom: 20px;
   }
 
   .top__description {
-    
+    font-size: 20px;
+    margin-bottom: 40px;
   }
 
   .top__btns {
     justify-content: center;
   }
 
-  .top__img {
-    
+  .top__buy {
+    padding: 14px 40px;
+    font-size: 16px;
   }
-}
 
+  .video__btn-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .top__video {
+    font-size: 16px;
+  }
+
+  .top__img {
+    top: -100px;
+    left: 80px;
+  }
+
+  .hero__img {
+    width: 450px;
+  }
+
+  .small__img {
+    top: 130px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .yellow__star-img {
+    top: 120px;
+    right: 120px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .white__star-img {
+    top: 370px;
+    right: 90px;
+    width: 90px;
+    height: 90px;
+  }
+
+   .text__img {
+    top: 130px;
+    width: 90px;
+  height: 160px;
+   }
+
+}
 
 .footer {
   background-color: #47b47d;
