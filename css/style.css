@@ -587,6 +587,7 @@ img {
 
   .top__text {
     font-size: 16px;
+    margin-bottom: 10px;
   }
 
   .top__title {
@@ -595,7 +596,7 @@ img {
   }
 
   .top__description {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 40px;
   }
 
@@ -653,6 +654,43 @@ img {
    }
 
 }
+
+
+@media (max-width: 560px) {
+  .top__img {
+    left: 50px;
+  }
+}
+
+@media (max-width: 520px) {
+
+  .top__description {
+    font-size: 16px;
+  }
+  .top__img {
+    left: 30px;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .top__text {
+    font-size: 14px;
+  }
+  .top__title {
+    font-size: 35px;
+  }
+
+  .top__description {
+    font-size: 14px;
+  }
+  .top__img {
+    left: 10px;
+  }
+}
+
+
 
 .footer {
   background-color: #47b47d;
