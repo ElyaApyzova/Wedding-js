@@ -737,6 +737,49 @@ img {
  
 }
 
+@media (max-width: 463px) {
+
+  
+  .top__img {
+    left: 20px;
+  }
+ 
+}
+
+@media (max-width: 440px) {
+
+  .top__content {
+    padding-top: 320px;
+  }
+  .top__text {
+    font-size: 12px;
+  }
+
+  .top__title {
+    font-size: 30px;
+  }
+
+  .top__description {
+    font-size: 12px;
+    margin-bottom: 28px;
+  }
+
+  .top__buy {
+    padding: 12px 40px;
+  }
+
+  
+  .top__img {
+    left: 0;
+  }
+ 
+}
+
+
+@media (max-width: 420px) {
+  
+}
+
 
 
 .footer {
