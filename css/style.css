@@ -690,6 +690,53 @@ img {
   }
 }
 
+@media (max-width: 485px) {
+
+  .top__content {
+    padding-top: 300px;
+  }
+  .top__img {
+    top: -80px;
+    left: 50px;
+  }
+  .hero__img {
+    width: 400px;
+  }
+
+  .small__img {
+    top: 100px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .yellow__star-img {
+    top: 100px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .white__star-img {
+    top: 350px;
+    width: 70px;
+    height: 70px;
+  }
+  .text__img {
+    width: 80px;
+    height: 140px;
+  }
+}
+
+
+@media (max-width: 485px) {
+
+  
+  .top__img {
+    left: 40px;
+  }
+ 
+}
+
 
 
 .footer {
