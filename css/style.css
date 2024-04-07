@@ -785,7 +785,7 @@ img {
 
 
   .top__content {
-    padding-top: 295px;
+    padding-top: 290px;
   }
   .top__img {
     top: -60px;
@@ -821,7 +821,143 @@ img {
   }
 }
 
+@media (max-width: 390px) {
 
+  .top__title {
+    font-size: 28px;
+  }
+  .top__img {
+    left: 10px;
+  }
+  
+}
+
+@media (max-width: 368px) {
+  .top__content {
+    padding-top: 230px;
+  }
+
+  .top__title {
+    font-size: 26px;
+  }
+
+  .top__buy {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+
+  .video__btn-img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .top__video {
+    font-size: 12px;
+  }
+  .top__img {
+    left: 40px;
+  }
+  .hero__img {
+    width: 300px;
+  }
+
+  .small__img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .yellow__star-img {
+    right: 70px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .white__star-img {
+    top: 290px;
+    right: 60px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .text__img {
+    width: 50px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 346px) {
+
+  .top__title {
+    font-size: 24px;
+  }
+  .top__img {
+    left: 20px;
+  }
+}
+
+@media (max-width: 328px) {
+  .top__img {
+    left: 5px;
+  }
+}
+
+@media (max-width: 314px) {
+
+  .top__content {
+    padding-top: 200px;
+  }
+
+  .top__text {
+   font-size: 10px;
+   margin-bottom: 5px;
+  }
+  .top__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .top__description {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .top__img {
+    top: -50px;
+    left: 30px;
+  }
+  .hero__img {
+    width: 250px;
+  }
+
+  .small__img {
+    top: 80px;
+  }
+
+  .yellow__star-img {
+    top: 100px;
+    right: 60px;
+  }
+
+  .white__star-img {
+    top: 255px;
+    right: 50px;
+  }
+
+  .text__img {
+    top: 110px;
+  }
+}
+
+@media (max-width: 296px) {
+  .top__img {
+    left: 15px;
+  }
+}
+
+@media (max-width: 278px) {
+  .top__img {
+    left: 0;
+  }
+}
 
 .footer {
   background-color: #47b47d;
@@ -971,7 +1107,6 @@ img {
     position: absolute;
     right: 0;
     top: 60px;
-    text-align: center;
     transform: translateY(-150%);
     transition: transform 0.5s ease;
   }
