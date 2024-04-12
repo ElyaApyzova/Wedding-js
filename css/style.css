@@ -961,6 +961,17 @@ img {
 
 
 
+.about {
+  padding: 105px 0 74px;
+}
+
+.about__inner {
+  display: flex;
+}
+
+.about__content {
+  width: 502px;
+}
 
 .footer {
   background-color: #47b47d;
