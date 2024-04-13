@@ -974,28 +974,30 @@ img {
   display: flex;
   align-items: flex-end;
   gap: 18px;
+  
 }
-@media (max-width: 1200px) {
+
   .about__section-image {
-    width: clamp(200px, 100%, 353px);
+    width: clamp(180px, 100%, 353px);
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
   }
-}
+
 
 
 .about__section-additional-images {
   display: flex;
   flex-direction: column;
   gap: 22px;
+ 
 }
-@media (max-width: 1200px) {
+
 .about__additional-image {
-  width: clamp(200px, 100%, 285px);
+  width: clamp(100px, 100%, 285px);
   border-top-right-radius: 222px;
   border-bottom-right-radius: 222px;
 }
-}
+
 
 
 .about__content {
@@ -1005,7 +1007,7 @@ img {
 
 .about__text {
   margin-bottom: 8px;
-  font-size: clamp(18px, 50%, 12px);
+  font-size: clamp(12px, 2vw, 18px);
   font-weight: 600;
   text-transform: uppercase;
   color: #47b47d;
@@ -1013,14 +1015,14 @@ img {
 
 .about__title {
   font-family: 'Playfair Display', sans-serif;
-  font-size: clamp(40px, 50%, 20px);
+  font-size: clamp(20px, 3vw, 40px);
   font-weight: 800;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .about__description {
   color: #0E0E0E;
-  font-size: clamp(16px, 50%, 10px);
+  font-size: clamp(10px, 1.5vw, 16px);
 }
 
 .about__btn {
@@ -1028,9 +1030,10 @@ img {
 }
 
 .about__btn-link {
-  padding: 16px 48px;
+  width: clamp(20px, 100%, 40px);
+  padding: 15px 30px;
   border: solid 1px #47b47d;
-  font-size: clamp(14px, 50%, 10px);
+  font-size: clamp(10px, 1.3vw, 14px);
 }
 
 .footer {
