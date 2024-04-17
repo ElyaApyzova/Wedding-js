@@ -1095,17 +1095,26 @@ img {
     background: none;
   }
   
-  
 }
 
 
 @media (max-width:  410px) {
-  
   .about__section-additional-images {
     display: none;
   }
 }
 
+.choose__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.choose__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
 
 .footer {
   background-color: #47b47d;
