@@ -1127,7 +1127,6 @@ img {
 
 .choose__box-container {
   text-align: center;
-  justify-content: center;
   padding: 40px 20px;
   width: clamp(200px, 100%, 322px);
   height: 314px;
@@ -1135,6 +1134,21 @@ img {
   box-shadow: 4px 1px 25px 0px rgba(0, 0, 0, 0.1);
 }
 
+.choose__box-img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+}
+
+.choose__box-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.choose__box-description {
+
+}
 
 .footer {
   background-color: #47b47d;
