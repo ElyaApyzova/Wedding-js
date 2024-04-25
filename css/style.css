@@ -1282,13 +1282,43 @@ img {
 }
 
 .best__content {
-  padding-top: 16px;
+  padding-top: 12px;
   width: 286px;
+}
+
+.best__description {
+  font-size: clamp(16px, 1.3vw, 20px);
 }
 
 .best__list {
   display: flex;
+  align-items: center;
   gap: 20px;
+}
+
+.best__item {
+  position: relative;
+  background: #47b47d;
+  width: 100%;
+  height: 154px;
+}
+
+.best__item-img {
+  width: 205px;
+  height: 154px;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+
+.best__item-text {
+  position: absolute;
+  bottom: 12px;
+  margin-left: 12px;
+  font-size: clamp(12px, 1.2vw, 16px);
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s ease;
 }
 
 .footer {
