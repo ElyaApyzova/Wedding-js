@@ -1282,7 +1282,7 @@ img {
 }
 
 .best__content {
-  padding-top: 12px;
+  padding-top: 10px;
   width: 286px;
 }
 
@@ -1299,12 +1299,13 @@ img {
 .best__item {
   position: relative;
   background: #47b47d;
-  width: 100%;
+  width: clamp(180px,100%, 204.80px);
   height: 154px;
+  
 }
 
 .best__item-img {
-  width: 205px;
+  width: clamp(180px,100%, 205px);
   height: 154px;
   opacity: 0.8;
   transition: 0.5s ease;
