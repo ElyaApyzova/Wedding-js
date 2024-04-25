@@ -1270,6 +1270,27 @@ img {
   }
 }
 
+.best {
+  background: #F1F9F5;
+  padding: 108px 0px;
+}
+
+.best__inner {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.best__content {
+  padding-top: 16px;
+  width: 286px;
+}
+
+.best__list {
+  display: flex;
+  gap: 20px;
+}
+
 .footer {
   background-color: #47b47d;
   padding: 40px 0px;
