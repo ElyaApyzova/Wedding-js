@@ -1322,6 +1322,33 @@ img {
   transition: 0.5s ease;
 }
 
+@media (max-width: 952px) {
+
+  .best {
+    padding: 40px 0px;
+  }
+  .best__inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .best__item {
+    width: clamp(180px,100%, 204.80px);
+    height: 154px;
+    
+  }
+  .best__item-img {
+    width: clamp(180px,100%, 205px);
+    height: 154px;
+  }
+  
+  
+  .best__item-text {
+    font-size: clamp(12px, 1.2vw, 16px);
+  }
+
+}
+
 .footer {
   background-color: #47b47d;
   padding: 40px 0px;
