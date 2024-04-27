@@ -1374,6 +1374,33 @@ img {
   }
 }
 
+
+.healthy {
+  padding: 91px 0px;
+}
+
+.healthy__inner {
+  display: flex;
+  gap: 97px;
+}
+
+.healthy__box {
+  position: relative;
+  background: #F1F9F5;
+  width: 706px;
+  height: 494px;
+  margin-left: -110px;
+}
+
+.healthy__box-img {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 700px;
+  height: 580px;
+  
+}
+
 .footer {
   background-color: #47b47d;
   padding: 40px 0px;
