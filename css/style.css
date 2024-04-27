@@ -1394,9 +1394,9 @@ img {
 
 .healthy__box-img {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   left: 32px;
-  width: 800px;
+  width: clamp(300px, 100%,750px);
   height: 580px;
   
 }
@@ -1413,12 +1413,22 @@ img {
 .healthy__list {
   display: flex;
   flex-direction: column;
+  gap: 24px;
 }
 
 .healthy__item {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+}
+
+.healthy__item-img {
+  width: 40px;
+  height: 40px;
+}
+
+.healthy__item-text {
+  font-size: clamp(12px, 1.3vw, 20px);
 }
 
 
