@@ -1564,8 +1564,42 @@ img {
 }
 
 @media (max-width: 570px) {
-  
+  .healthy__inner {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .healthy__box {
+    height: 330px;
+  }
+  .healthy__box-img {
+    width: 500px;
+    height: 410px;
+  }
 }
+
+@media (max-width: 455px) {
+
+  .healthy__box {
+    height: 280px;
+  }
+  .healthy__box-img {
+    width: 400px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .healthy__box {
+    height: 220px;
+  }
+  .healthy__box-img {
+    width: 320px;
+    height: 255px;
+  }
+}
+
 
 
 
