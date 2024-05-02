@@ -1387,7 +1387,7 @@ img {
 .healthy__box {
   position: relative;
   background: #F1F9F5;
-  width: 706px;
+  width: clamp(300px, 100%, 706px);
   height: 494px;
   margin-left: -110px;
 }
@@ -1395,10 +1395,9 @@ img {
 .healthy__box-img {
   position: absolute;
   bottom: 20px;
-  left: 32px;
-  width: clamp(300px, 100%,750px);
-  height: 580px;
-  
+  left: 0;
+  width: 750px;
+  height: 580px; 
 }
 
 .healthy__container {
@@ -1406,7 +1405,7 @@ img {
 }
 
 .healthy__description {
-  font-size: clamp(12px, 1.2vw, 16px);
+  font-size: clamp(14px, 1.2vw, 16px);
   margin-bottom: 62px;
 }
 
@@ -1429,6 +1428,24 @@ img {
 
 .healthy__item-text {
   font-size: clamp(12px, 1.3vw, 20px);
+}
+
+@media (max-width: 1170px) {
+  .healthy__box-img {
+  width: 680px;
+  height: 580px; 
+}
+
+.healthy__title {
+  font-size: clamp(28px, 3.2vw, 35px);
+}
+}
+
+@media (max-width: 1170px) {
+  .healthy__box-img {
+  width: 680px;
+  height: 580px; 
+}
 }
 
 
