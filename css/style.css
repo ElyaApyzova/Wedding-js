@@ -1405,7 +1405,7 @@ img {
 }
 
 .healthy__description {
-  font-size: clamp(14px, 1.2vw, 16px);
+  font-size: clamp(12px, 1.4vw, 16px);
   margin-bottom: 62px;
 }
 
@@ -1441,7 +1441,7 @@ img {
 }
 
 .healthy__title {
-  font-size: clamp(28px, 3.2vw, 35px);
+  font-size: clamp(20px, 3.2vw, 35px);
 }
 
 .healthy__description {
@@ -1449,13 +1449,13 @@ img {
 }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1086px) {
   .healthy__box {
     height: 400px;
   }
   .healthy__box-img {
-  width: 650px;
-  height: 480px; 
+  width: 590px;
+  height: 490px; 
 }
 
 .healthy__description {
@@ -1464,15 +1464,51 @@ img {
 
 }
 
-@media (max-width: 965px) {
+@media (max-width: 1000px) {
+
+  .healthy__inner {
+    gap: 60px;
+  }
   .healthy__box {
     height: 360px;
   }
   .healthy__box-img {
-  width: 580px;
+  width: 550px;
   height: 450px; 
 }
+
+.healthy__list {
+  gap: 20px;
 }
+
+.healthy__item-img {
+  width: 30px;
+  height: 30px;
+}
+}
+
+@media (max-width: 940px) {
+  .healthy__box {
+    height: 325px;
+  }
+  .healthy__box-img {
+  width: 500px;
+  height: 410px; 
+}
+
+.healthy__container {
+  margin-top: -10px;
+}
+
+.healthy__description {
+  margin-bottom: 30px;
+}
+}
+
+@media (max-width: 820px) {
+  
+}
+
 
 
 .footer {
