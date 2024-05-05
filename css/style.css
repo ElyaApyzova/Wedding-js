@@ -1601,6 +1601,21 @@ img {
 }
 
 
+.apply {
+  padding: 75px 0px 82px 0px;
+}
+
+.apply__title {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.apply__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 134px;
+}
 
 
 .footer {
