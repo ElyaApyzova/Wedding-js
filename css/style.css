@@ -1614,7 +1614,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 134px;
+  gap: clamp(20px, 10vw, 134px);
 }
 
 .apply__item {
@@ -1636,8 +1636,40 @@ img {
 }
 
 .apply__item-description {
-  font-size: clamp(12px, 1.3, 16px);
+  font-size: clamp(12px, 1.2vw, 16px);
   line-height: 1.5;
+}
+
+@media (max-width: 1008px) {
+  .apply__item-img {
+    height: 240px;
+  }
+}
+
+@media (max-width: 880px) {
+  .apply__item-img {
+    height: 220px;
+  }
+}
+
+@media (max-width: 800px) {
+  .apply__item-img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .apply__list {
+    gap: 20px;
+  }
+  .apply__item-img {
+    height: 170px;
+  }
+}
+
+@media (max-width: 600px) {
+  
 }
 
 .footer {
