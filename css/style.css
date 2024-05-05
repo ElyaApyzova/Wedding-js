@@ -1617,6 +1617,28 @@ img {
   gap: 134px;
 }
 
+.apply__item {
+  width: 266px;
+  height: 416px;
+  overflow-y: hidden;
+}
+
+.apply__item-img {
+  width: clamp(200px, 100%, 266px);
+  height: 266px;
+  margin-bottom: 12px;
+}
+
+.apply__item-title {
+  font-size: clamp(12px, 1.5vw, 20px);
+  font-size: 600;
+  margin-bottom: 12px;
+}
+
+.apply__item-description {
+  font-size: clamp(12px, 1.3, 16px);
+  line-height: 1.5;
+}
 
 .footer {
   background-color: #47b47d;
