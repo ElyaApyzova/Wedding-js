@@ -1750,6 +1750,8 @@ img {
 
 .warning__container {
   display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .warning__box {
@@ -1759,10 +1761,24 @@ img {
   margin-left: -70px;
 }
 
+.warning__img {
+  width: 77px;
+  height: 77px;
+}
+
+.warning__icon {
+  width: 25px;
+  height: 25px;
+}
+
 .warning__title {
   text-transform: uppercase;
   color: #F3B61A;
+  font-size: clamp(14px, 1.3vw, 20px);
+  font-weight: 600;
 }
+
+
 
 .footer {
   background-color: #47b47d;
