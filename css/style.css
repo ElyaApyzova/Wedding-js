@@ -1751,7 +1751,7 @@ img {
 .warning__container {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 24px;
 }
 
 .warning__box {
@@ -1778,7 +1778,14 @@ img {
   font-weight: 600;
 }
 
-
+.warning__list {
+  list-style: initial;
+}
+.warning__item-text {
+  font-size: clamp(10px, 1.3vw, 14px);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
 
 .footer {
   background-color: #47b47d;
