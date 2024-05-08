@@ -1735,6 +1735,35 @@ img {
   
 }
 
+
+
+.warning {
+  padding-bottom: 43px;
+}
+
+.warning__inner {
+  width: clamp(200px, 100%, 1031px);
+  height: 515px;
+  background: #F1F9F5;
+  padding: 57px 94px;
+}
+
+.warning__container {
+  display: flex;
+}
+
+.warning__box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: -70px;
+}
+
+.warning__title {
+  text-transform: uppercase;
+  color: #F3B61A;
+}
+
 .footer {
   background-color: #47b47d;
   padding: 40px 0px;
