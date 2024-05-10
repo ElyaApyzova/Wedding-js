@@ -1848,6 +1848,23 @@ img {
   margin-bottom: 5px;
 }
 
+.testimonials__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials__icons {
+  display: flex;
+  align-self: flex-end;
+  gap: 16px;
+  margin-bottom: 98px;
+}
+
+.testimonials__icons-img {
+  width: 32px;
+  height: 32px;
+}
+
 .footer {
   background-color: #47b47d;
   padding: 40px 0px;
