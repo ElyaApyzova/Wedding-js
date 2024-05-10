@@ -1801,7 +1801,7 @@ img {
 }
 
 .testimonials__content {
-  width: clamp(200px, 100%, 650px);
+  width: clamp(200px, 100%, 730px);
 }
 
 .testimonials__text {
@@ -1818,15 +1818,34 @@ img {
 .testimonials__items {
   display: flex;
   gap: 20px;
+  margin-bottom: 20px;
 }
 
 .testimonials__items-quote {
   width: 60px;
-  height: 30px;
+  height: 20px;
+}
+
+.testimonials__description {
+  padding: 20px 0px;
+  line-height: 1.7;
 }
 
 .testimonials__items-addition {
   align-self: flex-end;
+}
+
+.testimonials__rating {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.testimonials__box-title {
+  font-size: clamp(14px, 1.5vw, 20px);
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .footer {
