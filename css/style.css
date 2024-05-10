@@ -1787,6 +1787,48 @@ img {
   line-height: 1.8;
 }
 
+
+
+.testimonials {
+  background: #edf7f2;
+  padding: 98px 0px 88px 0px;
+}
+
+.testimonials__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 37px;
+}
+
+.testimonials__content {
+  width: clamp(200px, 100%, 650px);
+}
+
+.testimonials__text {
+  font-size: clamp(14px, 1.5vw, 18px);
+  color: #47b47d;
+  text-transform: uppercase;
+}
+
+.testimonials__title {
+  width: 450px;
+  margin-bottom: 54px;
+}
+
+.testimonials__items {
+  display: flex;
+  gap: 20px;
+}
+
+.testimonials__items-quote {
+  width: 60px;
+  height: 30px;
+}
+
+.testimonials__items-addition {
+  align-self: flex-end;
+}
+
 .footer {
   background-color: #47b47d;
   padding: 40px 0px;
