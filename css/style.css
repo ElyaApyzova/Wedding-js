@@ -1926,7 +1926,7 @@ img {
 }
 
 .testimonials__box-title {
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-size: clamp(12px, 1.5vw, 20px);
   color: #000000;
   font-weight: 700;
   margin-bottom: 5px;
@@ -1945,8 +1945,8 @@ img {
 }
 
 .testimonials__icons-img {
-  width: clamp(20px, 100%, 32px);
-  height: 32px;
+  width: 28px;
+  height: 28px;
 }
 
 .testimonials__icons-img:hover {
@@ -1959,6 +1959,117 @@ img {
 .testimonials__img {
   width: clamp(200px, 100%, 353px);
 }
+
+@media (max-width: 1050px) {
+  .testimonials__icons-img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 860px) {
+
+  .testimonials__title {
+    width: 400px;
+    margin-bottom: 30px;
+  }
+  .testimonials__icons-img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 765px) {
+
+  .testimonials__title {
+    width: 350px;
+  }
+
+  .testimonials__items {
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  .testimonials__items-quote {
+    width: 40px;
+    height: 15px;
+  }
+  
+  .testimonials__description {
+    padding: 10px 0px;
+  }
+
+  .testimonials__avatar {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .testimonials__avatar-img {
+    width: 43px;
+    height: 43px;
+  }
+  
+  
+}
+
+
+@media (max-width: 671px) {
+  .testimonials__inner {
+    gap: 20px;
+  }
+  .testimonials__title {
+    width: 300px;
+  }
+
+  .testimonials__stars-img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .testimonials__star-img {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .testimonials__inner {
+    gap: 10px;
+  }
+  .testimonials__title {
+    width: 250px;
+  }
+}
+
+@media (max-width: 546px) {
+  .testimonials__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonials__title {
+    font-size:20px;
+  }
+
+  .testimonials__items {
+    margin-bottom: 15px;
+  }
+
+
+  .testimonials__icons {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .testimonials__img {
+    align-self: center;
+  }
+}
+
 
 .footer {
   background-color: #47b47d;
