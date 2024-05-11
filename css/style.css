@@ -1782,13 +1782,79 @@ img {
   list-style: initial;
 }
 .warning__item-text {
-  font-size: clamp(10px, 1.3vw, 14px);
+  font-size: clamp(12px, 1.5vw, 14px);
   margin-bottom: 20px;
   line-height: 1.8;
 }
 
+@media (max-width: 605px) {
+  .warning__inner {
+    height: 560px;
+  }
+}
 
+@media (max-width: 560px) {
+  .warning__inner {
+    height: 580px;
+  }
+}
 
+@media (max-width: 545px) {
+  .warning__inner {
+    height: 620px;
+  }
+}
+
+@media (max-width: 468px) {
+  .warning__inner {
+    height: 650px;
+  }
+}
+
+@media (max-width: 457px) {
+  .warning__inner {
+    height: 630px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 381px) {
+  .warning__inner {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 343px) {
+  .warning__inner {
+  height: 650px;
+  }
+}
+
+@media (max-width: 327px) {
+  .warning__inner {
+  height: 670px;
+  }
+}
+
+@media (max-width: 315px) {
+  .warning__inner {
+  height: 710px;
+  }
+}
+
+@media (max-width: 280px) {
+  .warning__inner {
+  height: 750px;
+  }
+}
+
+@media (max-width: 257px) {
+  .warning__inner {
+  height: 800px;
+  }
+}
 .testimonials {
   background: #F1F9F5;
   padding: 98px 0px 88px 0px;
