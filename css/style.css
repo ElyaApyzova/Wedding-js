@@ -63,7 +63,7 @@ img {
 }
 
 .header {
-  background-color: #edf7f2;
+  background-color: #F1F9F5;
 }
 
 .inner__header {
@@ -103,7 +103,7 @@ img {
 
 .top {
   padding: 36px 0 130px;
-  background-color: #edf7f2;
+  background-color: #F1F9F5;
   overflow-x: clip;
 }
 
@@ -151,7 +151,7 @@ img {
 }
 
 .top__buy:hover {
-  background: #73d4a4;
+  opacity: 0.7;
 }
 
 .video__btn {
@@ -1790,7 +1790,7 @@ img {
 
 
 .testimonials {
-  background: #edf7f2;
+  background: #F1F9F5;
   padding: 98px 0px 88px 0px;
 }
 
@@ -1827,6 +1827,8 @@ img {
 }
 
 .testimonials__description {
+  font-size: clamp(12px, 1.3vw, 16px);
+  color: #0E0E0E;
   padding: 20px 0px;
   line-height: 1.7;
 }
@@ -1839,6 +1841,22 @@ img {
   display: flex;
   align-items: center;
   gap: 18px;
+}
+
+.testimonials__avatar {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: #E7E6EC;
+  border-radius: 50%;
+}
+
+.testimonials__avatar-img {
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  width: 63px;
+  height: 63px;
 }
 
 .testimonials__box-title {
@@ -1861,8 +1879,19 @@ img {
 }
 
 .testimonials__icons-img {
-  width: 32px;
+  width: clamp(20px, 100%, 32px);
   height: 32px;
+}
+
+.testimonials__icons-img:hover {
+  background: #EDF7F2;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.testimonials__img {
+  width: clamp(200px, 100%, 353px);
 }
 
 .footer {
