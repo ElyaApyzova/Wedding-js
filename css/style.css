@@ -2093,14 +2093,14 @@ input, textarea {
 
 
 .questions__form-title {
-  font-size: clamp(16px, 1.8vw, 20px );
+  font-size: clamp(16px, 1.8vw, 24px );
   font-weight: 600;
   margin-bottom: 20px;
 }
 
 .questions__form-text {
   width: clamp(200px, 100%, 357px);
-  font-size: clamp(12px, 1.2vw, 14px);
+  font-size: clamp(12px, 1.2vw, 16px);
   margin-bottom: 20px;
 }
 
@@ -2143,6 +2143,7 @@ input, textarea {
 
 .questions__item {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 67px;
   margin-bottom: 20px;
@@ -2150,12 +2151,12 @@ input, textarea {
 
 .questions__item-text {
   color: #1B1717;
-  font-size: clamp(12px, 1.5vw, 15px);
+  font-size: clamp(12px, 1.5vw, 18px);
 }
 
 .questions__item-img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 }
 
 hr {
