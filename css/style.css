@@ -2089,9 +2089,7 @@ input, textarea {
   gap: 101px;
 }
 
-.questions__form {
-  width: clamp(250px, 100%, 510px);
-}
+
 
 .questions__form-title {
   font-size: clamp(16, 1.8, 24px );
@@ -2100,16 +2098,14 @@ input, textarea {
 }
 
 .questions__form-text {
+  width: 357px;
   font-size: clamp(12px, 1.2vw, 16px);
   margin-bottom: 20px;
 }
 
-.forms {
-  
-}
 
 .forms__data {
-  width: clamp(250px, 100%, 510px);
+  width: clamp(250px, 100%, 407px);
   background: #F0F0F0;
   margin-bottom: 20px;
   padding: 15px 0px 15px 15px;
