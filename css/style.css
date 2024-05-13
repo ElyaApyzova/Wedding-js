@@ -2164,8 +2164,43 @@ hr {
   border: 1px solid #DADADA;
 }
 
+
+
+
+
+.buy__inner {
+  padding: 50px 0px 117px 0px;
+}
+
+.buy__title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.buy__container {
+  display: flex;
+  justify-content: center;
+}
+  
+.buy__btn {
+  background: #47b47d;
+  padding: 16px 48px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buy__btn:hover {
+  opacity: 0.8;
+}
+
+
 .footer {
-  background-color: #47b47d;
+  padding-top: 40px;
+}
+
+.footer__wrapper {
+  background: #47b47d;
   padding: 40px 0px;
   color: #fff;
 }
