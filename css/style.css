@@ -2106,7 +2106,7 @@ input, textarea {
 
 
 .forms__data {
-  width: clamp(250px, 100%, 407px);
+  width: clamp(200px, 100%, 407px);
   background: #F0F0F0;
   margin-bottom: 20px;
   padding: 15px 0px 15px 15px;
@@ -2115,7 +2115,7 @@ input, textarea {
 }
 
 .forms__field {
-  width: clamp(250px, 100%, 407px);
+  width: clamp(200px, 100%, 407px);
   background: #F0F0F0;
   margin-bottom: 20px;
   padding: 15px 0px 60px 15px;
@@ -2125,7 +2125,7 @@ input, textarea {
 }
 
 .questions__btn {
-  width: clamp(250px, 100%, 407px);
+  width: clamp(200px, 100%, 407px);
   background: #47b47d;
   padding: 16px 0px;
   color: #FFFFFF;
@@ -2190,9 +2190,77 @@ hr {
    
     margin-bottom: 10px;
   }
+
+  .questions__item {
+    gap: 40px;
+    margin-bottom: 15px;
+  }
   
 }
 
+@media (max-width: 850px) {
+  .questions__inner {
+    gap:60px
+  }
+  .forms__data {
+    padding: 10px 0px 10px 10px;
+  }
+
+  .forms__field {
+    padding: 10px 0px 40px 10px;
+  }
+
+  .questions__btn {
+    padding: 14px 0px;
+  }
+}
+
+@media (max-width: 710px) {
+  .questions__inner {
+    gap:30px
+  }
+ .questions__item {
+  gap: 20px;
+ }
+
+ .questions__item-img {
+  width: 16px;
+  height: 16px;
+ }
+}
+
+@media (max-width: 560px) {
+  .questions__inner {
+    flex-direction: column;
+  }
+
+  .questions__form-text {
+    width: clamp(200px, 100%, 480px);
+    font-size: clamp(12px, 1.2vw, 16px);
+    margin-bottom: 20px;
+  }
+  
+  
+  .forms__data {
+    width: clamp(200px, 100%, 530px);
+    margin-bottom: 20px;
+    padding: 15px 0px 15px 15px;
+    font-size: clamp(12px, 1.3vw, 16px);
+  }
+  
+  .forms__field {
+    width: clamp(200px, 100%, 530px);
+    margin-bottom: 20px;
+    padding: 15px 0px 60px 15px;
+    font-size: clamp(12px, 1.3vw, 16px);
+  }
+  
+  .questions__btn {
+    width: clamp(200px, 100%, 530px);
+    padding: 16px 0px;
+    font-size: clamp(14px, 1.3vw, 18px);
+  }
+}
 
 
 
