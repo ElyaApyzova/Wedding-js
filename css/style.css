@@ -2111,16 +2111,16 @@ input, textarea {
   margin-bottom: 20px;
   padding: 15px 0px 15px 15px;
   color: #8F8F8F;
-  font-size: clamp(12px, 1.5vw, 16px);
+  font-size: clamp(12px, 1.3vw, 16px);
 }
 
 .forms__field {
   width: clamp(250px, 100%, 407px);
   background: #F0F0F0;
   margin-bottom: 20px;
-  padding: 15px 0px 80px 15px;
+  padding: 15px 0px 60px 15px;
   resize: none;
-  font-size: clamp(12px, 1.5vw, 16px);
+  font-size: clamp(12px, 1.3vw, 16px);
   color: #8F8F8F;
 }
 
@@ -2129,7 +2129,7 @@ input, textarea {
   background: #47b47d;
   padding: 16px 0px;
   color: #FFFFFF;
-  font-size: clamp(14px, 1.5vw, 18px);
+  font-size: clamp(14px, 1.3vw, 18px);
   font-weight: 600;
 }
 
@@ -2164,6 +2164,34 @@ hr {
   border: 1px solid #DADADA;
 }
 
+@media (max-width: 1053px) {
+  .forms__data {
+    margin-bottom: 15px;
+  }
+  
+  .forms__field {
+   
+    margin-bottom: 15px;
+  }
+
+  .questions__item-img {
+    width: 20px;
+    height: 20px;
+  }
+  
+}
+
+@media (max-width: 920px) {
+  .forms__data {
+    margin-bottom: 10px;
+  }
+  
+  .forms__field {
+   
+    margin-bottom: 10px;
+  }
+  
+}
 
 
 
