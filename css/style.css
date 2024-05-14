@@ -2234,9 +2234,12 @@ hr {
     flex-direction: column;
   }
 
+  .questions__title {
+    text-align: start;
+  }
+
   .questions__form-text {
     width: clamp(200px, 100%, 480px);
-    font-size: clamp(12px, 1.2vw, 16px);
     margin-bottom: 20px;
   }
   
@@ -2245,24 +2248,48 @@ hr {
     width: clamp(200px, 100%, 530px);
     margin-bottom: 20px;
     padding: 15px 0px 15px 15px;
-    font-size: clamp(12px, 1.3vw, 16px);
   }
   
   .forms__field {
     width: clamp(200px, 100%, 530px);
     margin-bottom: 20px;
     padding: 15px 0px 60px 15px;
-    font-size: clamp(12px, 1.3vw, 16px);
   }
   
   .questions__btn {
     width: clamp(200px, 100%, 530px);
     padding: 16px 0px;
-    font-size: clamp(14px, 1.3vw, 18px);
   }
 }
 
+@media (max-width: 444px) {
 
+  .questions__title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .questions__title {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 307px) {
+
+  .questions__title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 270px) {
+
+  .questions__title {
+    font-size: 14px;
+  }
+}
 
 .buy__inner {
   padding: 50px 0px 117px 0px;
