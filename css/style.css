@@ -214,6 +214,8 @@ input, textarea {
   height: 210px;
 }
 
+
+
 @media (max-width: 1298px) {
   .top__img {
     left: 530px;
@@ -475,6 +477,10 @@ input, textarea {
 }
 
 @media (max-width: 790px) {
+
+  .top {
+    padding-bottom: 80px;
+  }
   .top__content {
     width: 300px;
     padding-top: 14px;
@@ -701,7 +707,7 @@ input, textarea {
   }
   .top__img {
     top: -80px;
-    left: 50px;
+    left: 40px;
   }
   .hero__img {
     width: 400px;
@@ -732,14 +738,7 @@ input, textarea {
 }
 
 
-@media (max-width: 485px) {
 
-  
-  .top__img {
-    left: 40px;
-  }
- 
-}
 
 @media (max-width: 463px) {
 
@@ -752,6 +751,9 @@ input, textarea {
 
 @media (max-width: 440px) {
 
+  .top {
+    padding-bottom: 50px;
+  }
   .top__content {
     padding-top: 320px;
   }
@@ -906,7 +908,9 @@ input, textarea {
 }
 
 @media (max-width: 314px) {
-
+  .top {
+    padding-bottom: 40px;
+  }
   .top__content {
     padding-top: 200px;
   }
