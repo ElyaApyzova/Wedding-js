@@ -79,7 +79,8 @@ input, textarea {
 }
 
 .logo__img {
-  width: 190px;
+  width: 166px;
+  height: 58px;
 }
 
 .menu__list {
@@ -2460,9 +2461,7 @@ hr {
   .inner__header {
     height: 70px;
   }
-  .logo__img {
-    width: 160px;
-  }
+  
 
   .menu__list {
     gap: 20px;
@@ -2496,10 +2495,7 @@ hr {
   .inner__header {
     height: 60px;
   }
-  .logo__img {
-    width: 140px;
-  }
-
+  
   .menu__list {
     gap: 14px;
   }
