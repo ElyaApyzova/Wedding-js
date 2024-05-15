@@ -2296,8 +2296,11 @@ hr {
 }
 
 .buy__title {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: clamp(24px, 5vw, 40px);
+    font-weight: 800;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 58px;
 }
 
 .buy__container {
@@ -2316,6 +2319,45 @@ hr {
 .buy__btn:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 638px) {
+  .buy__title {
+    margin-bottom: 48px;
+  }
+
+  .buy__btn {
+    padding: 14px 44px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 460px) {
+  .buy__title {
+    margin-bottom: 40px;
+  }
+
+  .buy__btn {
+    padding: 12px 40px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .buy__title {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+}
+
+@media (max-width: 340px) {
+  .buy__title {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+}
+
 
 
 .footer {
