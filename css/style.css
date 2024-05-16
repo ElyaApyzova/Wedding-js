@@ -80,7 +80,7 @@ input, textarea {
 
 .logo__img {
   width: 166px;
-  height: 58px;
+  
 }
 
 .menu__list {
@@ -2462,7 +2462,9 @@ hr {
     height: 70px;
   }
   
-
+  .logo__img {
+    width: 146px;
+  }
   .menu__list {
     gap: 20px;
   }
@@ -2495,7 +2497,9 @@ hr {
   .inner__header {
     height: 60px;
   }
-  
+  .logo__img {
+    width: 126px;
+  }
   .menu__list {
     gap: 14px;
   }
