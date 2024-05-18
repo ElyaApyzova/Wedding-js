@@ -1428,7 +1428,7 @@ input, textarea {
 
 
 .healthy {
-  padding: 91px 0px;
+  padding: 91px 0px 50px;
 }
 
 .healthy__inner {
@@ -1672,7 +1672,7 @@ input, textarea {
 
 
 .apply {
-  padding: 75px 0px 82px 0px;
+  padding: 50px 0px;
 }
 
 .apply__title {
@@ -1715,15 +1715,30 @@ input, textarea {
   .apply__list {
     gap: 80px;
   }
+
+  .apply__item {
+    
+    height: 380px;
+    
+  }
+  
   .apply__item-img {
     height: 240px;
   }
 }
 
 @media (max-width: 870px) {
+  .apply {
+    padding: 40px 0px;
+  }
   .apply__list {
     gap: 50px;
   }
+
+  .apply__item {
+    height: 350px;
+  }
+  
   .apply__item-img {
     height: 220px;
   }
@@ -1799,6 +1814,10 @@ input, textarea {
   .apply__title {
     font-size: 28px;
   }
+  .apply__item {
+    height: 390px;
+  }
+  
   .apply__item-img {
     height: 260px;
   }
