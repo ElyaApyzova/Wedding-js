@@ -1624,7 +1624,7 @@ input, textarea {
 
 @media (max-width: 570px) {
   .healthy {
-    padding: 80px 0px;
+    padding: 80px 0px 30px;
   }
   .healthy__inner {
     flex-direction: column;
@@ -1642,7 +1642,7 @@ input, textarea {
 
 @media (max-width: 455px) {
   .healthy {
-    padding: 60px 0px;
+    padding: 60px 0px 30px;
   }
   .healthy__box {
     height: 280px;
@@ -1655,7 +1655,7 @@ input, textarea {
 
 @media (max-width: 360px) {
   .healthy {
-    padding: 50px 0px;
+    padding: 50px 0px 30px;
   }
 
   .healthy__inner {
