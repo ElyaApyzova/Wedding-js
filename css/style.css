@@ -2257,6 +2257,10 @@ hr {
 }
 
 @media (max-width: 1053px) {
+  .questions {
+    padding: 70px 0px;
+  }
+  
   .forms__data {
     margin-bottom: 15px;
   }
@@ -2308,6 +2312,10 @@ hr {
 }
 
 @media (max-width: 710px) {
+  .questions {
+    padding: 50px 0px;
+  }
+  
   .questions__inner {
     gap:30px
   }
@@ -2322,12 +2330,16 @@ hr {
 }
 
 @media (max-width: 560px) {
+  .questions {
+    padding: 40px 0px;
+  }
   .questions__inner {
     flex-direction: column;
   }
 
   .questions__title {
     text-align: start;
+    margin-bottom: 40px;
   }
 
   .questions__form-text {
@@ -2355,7 +2367,7 @@ hr {
 }
 
 @media (max-width: 444px) {
-
+  
   .questions__title {
     font-size: 22px;
   }
@@ -2367,6 +2379,15 @@ hr {
     font-size: 18px;
     margin-bottom: 30px;
   }
+
+  .forms__data {
+    margin-bottom: 15px;
+  }
+  
+  .forms__field {
+    margin-bottom: 15px;
+  }
+  
 }
 
 @media (max-width: 307px) {
