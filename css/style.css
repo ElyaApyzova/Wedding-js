@@ -2050,6 +2050,10 @@ input, textarea {
 }
 
 @media (max-width: 1050px) {
+  .testimonials {
+    padding: 78px 0px 68px 0px;
+  }
+  
   .testimonials__icons-img {
     width: 24px;
     height: 24px;
@@ -2103,6 +2107,10 @@ input, textarea {
 
 
 @media (max-width: 671px) {
+  .testimonials {
+    padding: 58px 0px 48px 0px;
+  }
+  
   .testimonials__inner {
     gap: 20px;
   }
