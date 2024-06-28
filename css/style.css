@@ -2238,7 +2238,12 @@ input, textarea {
   justify-content: space-between;
   align-items: center;
   gap: 67px;
-  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0px;
+}
+
+.questions__item:hover {
+   color: #47b47d;
 }
 
 .questions__item-text {
