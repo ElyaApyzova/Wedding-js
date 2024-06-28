@@ -2234,18 +2234,12 @@ input, textarea {
   padding-top: 22px;
 }
 
-.questions__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 67px;
-  border-bottom: 1px solid #e5e5e5;
-  padding: 20px 0px;
-}
+.questions__list .questions__item {
+  border-bottom: 1px solid #DADADA;
+} 
 
-.questions__item:hover {
-   color: #47b47d;
-}
+
+
 
 .questions__item-text {
   color: #1B1717;
@@ -2257,9 +2251,19 @@ input, textarea {
   height: 24px;
 }
 
-hr {
-  margin-bottom: 24px;
-  border: 1px solid #DADADA;
+.questions__list .questions__item .questions__item-btn[aria-expanded=true] {
+  border-bottom: 1px solid #47b47d;
+}
+
+.questions__item-btn {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 24px 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
 }
 
 @media (max-width: 1053px) {
