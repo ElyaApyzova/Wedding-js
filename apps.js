@@ -11,7 +11,7 @@ menuBtn.addEventListener("click", () => {
 
 // accordion
 
-const items = document.querySelectorAll(".accordion button");
+const items = document.querySelectorAll(".questions__item-btn");
 
 function toggleAccordion() {
   const itemToggle = this.getAttribute('aria-expanded');
