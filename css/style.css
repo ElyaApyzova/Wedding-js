@@ -2262,7 +2262,7 @@ input, textarea {
   text-align: left;
   width: 100%;
   padding: 24px 0;
-  color: #7288a2;
+  color: #211F1F;
 }
 
 .questions__item-btn:hover, .questions__item-btn:focus {
@@ -2270,8 +2270,8 @@ input, textarea {
 }
 
 .questions__item-btn:hover::after, .questions__item-btn:focus::after {
-  color: red;
-  border-bottom: 1px solid blue;
+  color: #47b47d;
+  border-bottom: 1px solid #47b47d;
 }
 
 .questions__item-icon {
@@ -2308,7 +2308,7 @@ input, textarea {
 }
 
 .questions__item-btn[aria-expanded=true] {
-  color: gold;
+  color: #F3B61A;
 }
 .questions__item-btn[aria-expanded=true] .questions__item-icon::after {
   width: 0;
