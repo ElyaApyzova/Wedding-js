@@ -2244,13 +2244,11 @@ input, textarea {
 .questions__item-text {
   color: #1B1717;
   font-size: clamp(12px, 1.5vw, 18px);
-  padding: 1em 1.5em 1em 0;
+  padding: 10px 15px 10px 0;
+  line-height: 24px;
 }
 
-.questions__item-img {
-  width: 24px;
-  height: 24px;
-}
+
 
 .questions__list .questions__item .questions__item-btn[aria-expanded=true] {
   border-bottom: 1px solid #47b47d;
@@ -2327,9 +2325,10 @@ input, textarea {
   will-change: opacity, max-height;
 }
 .questions__item-description {
-  font-size: 1rem;
+  font-size: clamp(12px, 1.3vw, 16px);
   font-weight: 300;
-  margin: 2em 0;
+  margin: 24px 0;
+  line-height: 24px;
 }
 
 @media (max-width: 1053px) {
