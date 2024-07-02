@@ -30,14 +30,12 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
 
 // Slider
 
-const testimonials = document.querySelectorAll('.testimonials__items');
+const testimonialItems = document.querySelectorAll('.testimonials__slider .testimonials__items');
 let currentIndex = 0;
 
 function showTestimonial(index) {
-  testimonials.forEach((item) => {
-    item.classList.remove('active');
-  });
-  testimonials[index].classList.add('active');
+  testimonialItems[currentIndex].classList.remove('active');
+  testimonialItems[index].classList.add('active');
   currentIndex = index;
 }
 
@@ -47,12 +45,12 @@ document
     if (event.target.classList.contains('prev')) {
       let index = currentIndex - 1;
       if (index < 0) {
-        index = testimonials.length - 1;
+        index = testimonialItems.length - 1;
       }
       showTestimonial(index);
     } else if (event.target.classList.contains('next')) {
       let index = currentIndex + 1;
-      if (index >= testimonials.length) {
+      if (index >= testimonialItems.length) {
         index = 0;
       }
       showTestimonial(index);
