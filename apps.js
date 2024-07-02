@@ -34,7 +34,9 @@ const testimonials = document.querySelectorAll('.testimonials__items');
 let currentIndex = 0;
 
 function showTestimonial(index) {
-  testimonials[currentIndex].classList.remove('active');
+  testimonials.forEach((item) => {
+    item.classList.remove('active');
+  });
   testimonials[index].classList.add('active');
   currentIndex = index;
 }
