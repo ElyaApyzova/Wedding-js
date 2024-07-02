@@ -30,7 +30,7 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
 
 // Slider
 
-const testimonials = document.querySelectorAll('.slider img');
+const testimonials = document.querySelectorAll('.testimonials__items');
 let currentIndex = 0;
 
 function showTestimonial(index) {
@@ -40,7 +40,7 @@ function showTestimonial(index) {
 }
 
 document
-  .querySelector('.slider.controlls')
+  .querySelector('.testimonials__icons')
   .addEventListener('click', function (event) {
     if (event.target.classList.contains('prev')) {
       let index = currentIndex - 1;
